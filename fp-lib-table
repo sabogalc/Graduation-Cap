@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Graduation Cap")(type "KiCad")(uri "${KIPRJMOD}/Graduation Cap.pretty")(options "")(descr ""))
+)

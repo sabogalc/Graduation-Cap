@@ -1,0 +1,6807 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "14be0ba5-3538-4f3a-bc24-e5266115e1a6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_PMOS_GDS"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_GDS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/drain/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_GDS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GDS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 107.95 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "024da22e-96a3-493a-bb4b-0522bb674bfd")
+	)
+	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03845b22-d688-42bc-8cc1-59f49eb9f94d")
+	)
+	(junction
+		(at 59.69 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "053ad608-38da-4309-b950-6aeaca923db5")
+	)
+	(junction
+		(at 132.08 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "068192c1-b3ab-434c-87a1-73683ec84526")
+	)
+	(junction
+		(at 143.51 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12067487-f840-4bd1-8984-a6b7354cae09")
+	)
+	(junction
+		(at 252.73 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a4a4b4-8797-482a-b795-3bf2ca3017e3")
+	)
+	(junction
+		(at 83.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2258a0da-e737-4dc4-a1cd-8b8bae0b5492")
+	)
+	(junction
+		(at 119.38 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "266b2d99-3cbf-46a6-beaa-661687ad92ce")
+	)
+	(junction
+		(at 119.38 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29040e37-692b-4b95-978c-64ec3c17df3b")
+	)
+	(junction
+		(at 83.82 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2910d1bb-d66b-445d-9914-026645704e59")
+	)
+	(junction
+		(at 132.08 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b5c8d09-6ad1-479d-8c9c-7770d0e79c39")
+	)
+	(junction
+		(at 119.38 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f69b934-9cd8-468b-9200-788006974108")
+	)
+	(junction
+		(at 156.21 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "365ffb26-19c2-43db-8a7d-e7d8c4850229")
+	)
+	(junction
+		(at 167.64 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e3984ec-fe32-4e04-bd94-0f74c597924d")
+	)
+	(junction
+		(at 180.34 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5334d5d7-fcad-4502-9c7d-a29024c5b2cc")
+	)
+	(junction
+		(at 95.25 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56023f8b-bd75-480a-b249-1f9fd79a1557")
+	)
+	(junction
+		(at 132.08 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "659dbed0-75de-4a41-ac14-fa5aa634df19")
+	)
+	(junction
+		(at 193.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71dbf39f-f1ae-4578-bb69-b7b45b83015f")
+	)
+	(junction
+		(at 214.63 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76de18f1-6540-4d19-b1f7-4c4a92fbac62")
+	)
+	(junction
+		(at 180.34 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773cb093-3b76-40a2-8793-db8bb173d6ac")
+	)
+	(junction
+		(at 214.63 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7827200f-f574-4ea9-a89b-4a6c8a757e65")
+	)
+	(junction
+		(at 223.52 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cee1589-c786-412e-8a64-a51c48d2d238")
+	)
+	(junction
+		(at 167.64 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ddeba1a-7881-4acf-adbd-628022630526")
+	)
+	(junction
+		(at 156.21 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8173de81-ce72-4cc7-b0e7-c97b4cf242f8")
+	)
+	(junction
+		(at 95.25 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89372eed-7799-4f0b-843a-36f519010bf6")
+	)
+	(junction
+		(at 214.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ce7be0-5197-4510-963b-b38e35b32a8f")
+	)
+	(junction
+		(at 193.04 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c9dc746-4066-4216-a1a4-9b58dc0cdb2f")
+	)
+	(junction
+		(at 252.73 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940a24d1-0494-457a-a6d1-29b4d187137f")
+	)
+	(junction
+		(at 143.51 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a10101-67df-4e72-9171-ce0992d4c766")
+	)
+	(junction
+		(at 180.34 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e90bfd-2232-46c0-a7d2-52f4aa046b03")
+	)
+	(junction
+		(at 167.64 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bbc45ce-1d78-4dd0-9a18-2806f621aebe")
+	)
+	(junction
+		(at 71.12 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03f2972-9ce0-4833-ab25-32aeca972f7a")
+	)
+	(junction
+		(at 83.82 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8a9f49-2738-424f-8377-912b57f2bb92")
+	)
+	(junction
+		(at 59.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb296f29-f3a0-4a5e-961d-fe21ff2dacf5")
+	)
+	(junction
+		(at 223.52 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b8a208-320f-4dda-98d6-9098f9055766")
+	)
+	(junction
+		(at 107.95 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d60861-3f76-4c7b-ada3-f41867091d00")
+	)
+	(junction
+		(at 156.21 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd5a9f26-7d89-41f3-aeb1-2fba4c27a1f0")
+	)
+	(junction
+		(at 71.12 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c075ae-1f1f-4e8e-bd42-f38e15536211")
+	)
+	(junction
+		(at 143.51 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e980ef30-7d6d-412c-9e5e-13bcc834b01c")
+	)
+	(junction
+		(at 223.52 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9e9650-518c-4b54-881c-051b20192d38")
+	)
+	(junction
+		(at 59.69 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f527d7b7-30a5-4b93-90d6-0dc7c96c8c9a")
+	)
+	(junction
+		(at 71.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb316a0c-bcce-4985-9272-98654c86d963")
+	)
+	(junction
+		(at 107.95 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc93b0a7-b118-4076-b6d7-8d94ecdd9ff9")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 180.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01376535-d39d-4482-a00c-564277668e66")
+	)
+	(wire
+		(pts
+			(xy 214.63 59.69) (xy 215.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b13a43-603c-408d-85cf-7524ee147b2b")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0384cfee-4a28-44ab-af8a-a6ce6aefc40e")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bf90f0-445d-40aa-b156-4ef42773227e")
+	)
+	(wire
+		(pts
+			(xy 223.52 144.78) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c2622b-bdf9-42c7-8fad-2a6f5b4af7a9")
+	)
+	(wire
+		(pts
+			(xy 46.99 106.68) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095ef047-5379-4231-9c3e-27423b3cf4b5")
+	)
+	(wire
+		(pts
+			(xy 214.63 139.7) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1105c1-8085-4338-a550-b8db07a00ad8")
+	)
+	(wire
+		(pts
+			(xy 147.32 116.84) (xy 143.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0babab2d-9c5d-4910-9b14-0ea40e25b15b")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d51ac41-518a-417c-8588-415205cdd074")
+	)
+	(wire
+		(pts
+			(xy 167.64 154.94) (xy 167.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3a24d9-48bc-4bc8-a4e9-8d80de500672")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13db6bbc-66ff-4e82-8329-2a4472bc108e")
+	)
+	(wire
+		(pts
+			(xy 182.88 152.4) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148f72fc-e13e-487b-a6e4-9a76f6547b99")
+	)
+	(wire
+		(pts
+			(xy 193.04 130.81) (xy 193.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15791071-2c2d-4e02-a312-4422a204dc1a")
+	)
+	(wire
+		(pts
+			(xy 171.45 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158be80c-e3b4-4068-929e-82c0262552d4")
+	)
+	(wire
+		(pts
+			(xy 252.73 152.4) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1715dc07-5a23-4b60-a0e6-3ab078086903")
+	)
+	(wire
+		(pts
+			(xy 143.51 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185a9de1-7fc1-468a-a1fd-f632e190b386")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 71.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af247f6-8c6b-4e05-8e0e-f4fa92044f78")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4dbd3c-fd33-4308-b6dc-b8cd9c1a3f7f")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d04085c-5b34-422d-be08-cea049843288")
+	)
+	(wire
+		(pts
+			(xy 105.41 123.19) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc3d428-07f0-4a76-b68d-99ddf7045761")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2466bf0f-c749-4c52-a27e-6c2d68abad04")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286b393d-6abc-45be-a27c-bc0bb678d1f4")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 132.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298560e4-e8c4-4b72-af9c-89267dbf5ec2")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cca6806-cb82-4412-9915-e62f4bf5eb59")
+	)
+	(wire
+		(pts
+			(xy 83.82 38.1) (xy 83.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d86c720-aad2-423e-b000-64d7a98159d9")
+	)
+	(wire
+		(pts
+			(xy 193.04 85.09) (xy 223.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcf1a0d-1dd3-4fdc-9cf4-42ef663af961")
+	)
+	(wire
+		(pts
+			(xy 46.99 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3199d831-f312-4883-8c69-770058d14bd4")
+	)
+	(wire
+		(pts
+			(xy 71.12 130.81) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329541db-b781-43dd-8b71-85ff75c04a55")
+	)
+	(wire
+		(pts
+			(xy 83.82 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34045a45-ad31-4e8b-b3fe-1337d2636182")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357bef24-bd2f-4bae-82d6-f4efb54dc360")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d08734-655e-480b-a6eb-56d07c725de4")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3882c34b-b63e-4379-bd94-c31c2aa0dcbb")
+	)
+	(wire
+		(pts
+			(xy 46.99 130.81) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aab38ad-abae-4531-b7a8-9e911af0cd82")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b67c6f8-a3ec-4482-bdb5-9897fe10b2dd")
+	)
+	(wire
+		(pts
+			(xy 214.63 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4000e70c-389b-4f01-b355-cda3dccf104c")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 59.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4067b58c-adff-4ec8-acf6-eea4e067a5af")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442bfbcc-c7c8-4fff-b3ac-c318f0a344d3")
+	)
+	(wire
+		(pts
+			(xy 214.63 46.99) (xy 214.63 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453f95d8-5566-49bd-ab09-8a6a54314087")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468dc7ff-26e5-4a8b-a5c0-3eda94549bfa")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 107.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469559e9-f2a1-433c-96a5-ea39b773ab29")
+	)
+	(wire
+		(pts
+			(xy 132.08 120.65) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4881c621-9ce6-496a-bcc8-057d0ef42267")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 143.51 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c15278-77e6-48ab-b118-c7c8f9115f74")
+	)
+	(wire
+		(pts
+			(xy 92.71 166.37) (xy 95.25 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab83d7b-461b-43a2-bc4e-ef108ec104c0")
+	)
+	(wire
+		(pts
+			(xy 105.41 168.91) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af4ad95-009a-47b1-97f1-3a09badd84ee")
+	)
+	(wire
+		(pts
+			(xy 59.69 62.23) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4e459b-aaac-4985-8977-7feb39b26ee4")
+	)
+	(wire
+		(pts
+			(xy 71.12 158.75) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4f6480-79e0-4957-af03-db01495dfe62")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d688593-4f38-4e5d-b2da-ed164a603c80")
+	)
+	(wire
+		(pts
+			(xy 59.69 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f006e85-0eae-477e-8491-88fb216598fc")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f353abe-b03a-4eb7-be96-3a238399b241")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 193.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52955d32-612b-474a-be04-ee685f345ee0")
+	)
+	(wire
+		(pts
+			(xy 156.21 158.75) (xy 156.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540748a7-1c93-402b-adad-cffc63bfc33c")
+	)
+	(wire
+		(pts
+			(xy 83.82 162.56) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545db79b-ba3b-45b8-8d7a-9498d2a48b60")
+	)
+	(wire
+		(pts
+			(xy 223.52 38.1) (xy 223.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575617bb-d3bf-418e-a65b-876e883609bb")
+	)
+	(wire
+		(pts
+			(xy 55.88 154.94) (xy 59.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578b5184-8d79-4d03-9381-848e188b4fe1")
+	)
+	(wire
+		(pts
+			(xy 121.92 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c80038-abe4-4461-9098-befd708f9ec2")
+	)
+	(wire
+		(pts
+			(xy 95.25 73.66) (xy 95.25 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5831bc43-d95b-4fa0-9e7b-b75ffbebc878")
+	)
+	(wire
+		(pts
+			(xy 132.08 38.1) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5856d211-404a-4ecb-80d8-325ce4f35651")
+	)
+	(wire
+		(pts
+			(xy 252.73 59.69) (xy 223.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59796a6f-5787-45ed-ae49-c96e284def16")
+	)
+	(wire
+		(pts
+			(xy 156.21 113.03) (xy 156.21 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599027d1-9eda-4354-96ed-2b030447ddd0")
+	)
+	(wire
+		(pts
+			(xy 252.73 106.68) (xy 252.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b73e882-ea8e-4bbc-926c-f4e3de49f05f")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba08eb1-3434-44b9-88fd-a93de26463d0")
+	)
+	(wire
+		(pts
+			(xy 195.58 149.86) (xy 193.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2e01af-7420-40c1-b2fb-305542914a91")
+	)
+	(wire
+		(pts
+			(xy 214.63 152.4) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e72b125-6e5e-4e98-8bdb-8228f6f82978")
+	)
+	(wire
+		(pts
+			(xy 143.51 116.84) (xy 143.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd71b0b-35de-443e-a731-8ba21e1f6013")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614d8b59-7ad8-4269-bb2e-3553a17ecbe7")
+	)
+	(wire
+		(pts
+			(xy 143.51 130.81) (xy 143.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62359de2-2778-40a7-9d29-e96b0953a7ec")
+	)
+	(wire
+		(pts
+			(xy 46.99 38.1) (xy 46.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62656c4a-1959-45f2-aad4-93b4bbb15055")
+	)
+	(wire
+		(pts
+			(xy 147.32 162.56) (xy 143.51 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627aab15-7c71-4454-9af8-7cb943a188b9")
+	)
+	(wire
+		(pts
+			(xy 167.64 38.1) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eb3bce-6f2a-425a-9e8b-619cae1b8ce6")
+	)
+	(wire
+		(pts
+			(xy 252.73 59.69) (xy 252.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63137871-c1da-4d1f-ade7-578e0d8deb05")
+	)
+	(wire
+		(pts
+			(xy 46.99 152.4) (xy 46.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a64407-8933-44e5-b44c-4d2ec3c41d67")
+	)
+	(wire
+		(pts
+			(xy 252.73 31.75) (xy 252.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e74140-476c-4412-9f55-c299b97f5950")
+	)
+	(wire
+		(pts
+			(xy 252.73 106.68) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64143abe-dd51-4448-b8ab-07f9f82f7424")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650a7fc2-9d69-4c8f-8775-fa763637b0ed")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68608e47-1789-4bf5-b743-c618b3db8a08")
+	)
+	(wire
+		(pts
+			(xy 59.69 130.81) (xy 71.12 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b1dc5a-e491-4f6b-a898-332e038d05d2")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693f202d-ef79-4cc6-bfe3-67df906e679e")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1db7a3-92f6-4628-997d-9f1819c601d1")
+	)
+	(wire
+		(pts
+			(xy 107.95 130.81) (xy 119.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7018a4-d501-4d2e-90c5-8b4010ef6289")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.22) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6ba1be-4417-4326-900f-22a193c900bc")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72159e05-3fbf-4395-b88b-6281f5189c30")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e7c60d-1ee2-4ae7-8101-10c477362663")
+	)
+	(wire
+		(pts
+			(xy 193.04 149.86) (xy 193.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72eefae0-d109-4208-a685-7d7b0d9d00a0")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e63ca2-1707-4fdc-921f-3fe87c719837")
+	)
+	(wire
+		(pts
+			(xy 71.12 85.09) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7532771e-f5d9-4514-93b2-71e70f63cc9d")
+	)
+	(wire
+		(pts
+			(xy 55.88 62.23) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a04662-4474-4925-a351-251ad4a0ea96")
+	)
+	(wire
+		(pts
+			(xy 167.64 38.1) (xy 180.34 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7654d837-3f58-46a1-ad67-4a55460aac1e")
+	)
+	(wire
+		(pts
+			(xy 171.45 154.94) (xy 167.64 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76640a3d-be51-4d69-832c-b9ed35b9b1ef")
+	)
+	(wire
+		(pts
+			(xy 95.25 166.37) (xy 95.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fc1f8d-f743-4e07-a5f2-f8a51b1603eb")
+	)
+	(wire
+		(pts
+			(xy 180.34 59.69) (xy 180.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b026f9-50e6-430a-80b5-6db9ccf0db42")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 167.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b88ef39-8eec-47db-b715-06216d7908cd")
+	)
+	(wire
+		(pts
+			(xy 67.31 158.75) (xy 71.12 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7a4d40-46bc-4ca8-9e17-509961b37320")
+	)
+	(wire
+		(pts
+			(xy 67.31 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d293fae-43e9-4d70-bb84-9bf95eca16a2")
+	)
+	(wire
+		(pts
+			(xy 119.38 130.81) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80174325-b237-4279-9831-db7c1b4a743b")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840c97b4-ff51-45cd-9248-79daf8ddac11")
+	)
+	(wire
+		(pts
+			(xy 134.62 166.37) (xy 132.08 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e87722-ee61-4724-9330-1f02a2d404f5")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85db8d2e-0f1b-44d0-b76e-23476e571d3a")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861e3571-bd37-4806-8412-a0af82f2104a")
+	)
+	(wire
+		(pts
+			(xy 71.12 130.81) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8802f8ff-accc-4cc3-9215-1e5e9f143bac")
+	)
+	(wire
+		(pts
+			(xy 223.52 85.09) (xy 223.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88100d13-56c4-4562-982b-9ca195df612e")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f7c494-7f67-49fb-8065-6dfa835382a1")
+	)
+	(wire
+		(pts
+			(xy 46.99 85.09) (xy 59.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a860b3a-8aa7-41a0-8e95-eed365c0031c")
+	)
+	(wire
+		(pts
+			(xy 132.08 166.37) (xy 132.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac86306-edd4-4864-81f4-b0a34b038499")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df353c7-ce87-4c5b-8d8f-77f3c9fad9a3")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef7e2d1-4537-421a-bd02-f18521d15587")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cef6da-7169-4de8-9dbf-7d45774f606e")
+	)
+	(wire
+		(pts
+			(xy 223.52 52.07) (xy 223.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9138688e-793f-47e8-91d9-c243a32e8bc6")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fddd6b-e643-479a-a03b-fcc7995cf78f")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946bcd02-793d-4696-8b6a-647d0b30acc0")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976f8a6c-2db6-4c67-80ec-f3b921e153ec")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a47fcc3-a2b1-421a-9ca3-719ff345b85e")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd02aca-8b99-4388-a3be-18e8635f851f")
+	)
+	(wire
+		(pts
+			(xy 55.88 109.22) (xy 59.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e63fd12-ea2e-4ffd-a3fa-ebf319d5b44a")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 83.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb6079a-6afa-4bf6-b977-36644f18346a")
+	)
+	(wire
+		(pts
+			(xy 59.69 154.94) (xy 59.69 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6d855c-338d-4efc-9280-49cdabdcfe88")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68) (xy 46.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76ec4fb-ce7c-4a92-bec9-3ec0bbee79b3")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a021aa-63ab-44d7-8498-c9859c16f390")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ea4862-0831-4e0a-ad4c-08fdf0346c0b")
+	)
+	(wire
+		(pts
+			(xy 71.12 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb77057-f7e6-4080-be84-5be8e957bba4")
+	)
+	(wire
+		(pts
+			(xy 83.82 116.84) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad11b9fc-dd7b-485e-af98-77e88cefa3d2")
+	)
+	(wire
+		(pts
+			(xy 107.95 130.81) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc4ef37-70a7-4768-965d-9ad5bfbf8564")
+	)
+	(wire
+		(pts
+			(xy 119.38 168.91) (xy 119.38 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1eeeb7-876a-419d-9fe1-bffa541212e4")
+	)
+	(wire
+		(pts
+			(xy 59.69 109.22) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0714fee-df9f-42bc-832c-2b6e002dffbf")
+	)
+	(wire
+		(pts
+			(xy 46.99 85.09) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4199e67-8929-42df-88dc-e00372afc5c6")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73b15fb-364d-4d2c-880f-d9b90b528fc1")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76cea5c-c6e0-42d9-873e-9996b21ab822")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d9fa4d-87f1-4844-813e-ac41504acd88")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b805e483-c869-435a-9bdf-a407e04c2f9b")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 71.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8184ca4-bd97-4c42-97cc-59b87e74eb39")
+	)
+	(wire
+		(pts
+			(xy 119.38 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83dcb35-0e79-4256-9033-bc28365c57b5")
+	)
+	(wire
+		(pts
+			(xy 214.63 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b875c54f-1220-43df-8def-867f5262ea49")
+	)
+	(wire
+		(pts
+			(xy 44.45 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa1d806-ba2f-40c1-90eb-2212253435e1")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 156.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3bbc5e-3962-48f6-9ff4-52261cae8f04")
+	)
+	(wire
+		(pts
+			(xy 67.31 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7b71c0-2215-410a-81ba-740eb9b06246")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda924a7-e00e-4ec9-9348-12341a5c51b7")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 119.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be46b3ad-c975-4bc0-ad52-6eeddb876fc8")
+	)
+	(wire
+		(pts
+			(xy 80.01 162.56) (xy 83.82 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be795e3b-60f8-4c94-9a21-c09a54c3721b")
+	)
+	(wire
+		(pts
+			(xy 80.01 69.85) (xy 83.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf577170-8672-4483-8a29-111190c25ebe")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 107.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c504f1-339a-42bb-bbec-a7c29ba0593a")
+	)
+	(wire
+		(pts
+			(xy 193.04 130.81) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38a39a6-c2e8-4bc4-b241-b20d55f1ba6a")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5591824-08bb-4009-b66f-1347f2533edb")
+	)
+	(wire
+		(pts
+			(xy 193.04 85.09) (xy 193.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5592b59-3815-42a6-9bff-b40e82c30876")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e904c2-9efb-4566-85f8-5ef45ecb53f0")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86e4ded-5203-42f1-8d63-124c2354a9bd")
+	)
+	(wire
+		(pts
+			(xy 59.69 130.81) (xy 59.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafb1311-9bea-4a06-a1d4-e026c968faa5")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced80c38-a3a3-4a00-98cf-ae67eae60a32")
+	)
+	(wire
+		(pts
+			(xy 143.51 162.56) (xy 143.51 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03df26c-15dd-43d0-bf31-347f3b16813a")
+	)
+	(wire
+		(pts
+			(xy 223.52 130.81) (xy 223.52 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ab8a6a-a7d0-4205-8d7e-12389907cd88")
+	)
+	(wire
+		(pts
+			(xy 156.21 130.81) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d113ca76-6d3c-47e9-9d42-f238478bd614")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d135d097-b6f8-4793-97c3-c78c183a403d")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 143.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a3da57-0ef4-483c-aa8c-d036d2627ddb")
+	)
+	(wire
+		(pts
+			(xy 46.99 130.81) (xy 59.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c2d2bf-6c41-4c01-bb2d-1390f920b2ed")
+	)
+	(wire
+		(pts
+			(xy 160.02 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28b8162-dae0-49f1-bf14-1a31a3b02759")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 143.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d362ece3-031f-4225-9dfd-f19a19c91682")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 119.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e98cbc-3c61-410d-b0ed-1b276a871fe5")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49443d9-4863-4e86-9dc4-8d9bbba939cb")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 46.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ba0d34-8779-45dc-a4d3-a59044774053")
+	)
+	(wire
+		(pts
+			(xy 160.02 158.75) (xy 156.21 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6127f94-83bd-46bc-8687-c796b489db9d")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75adf62-8569-402f-84d1-518ec7956a47")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bfdcb2-d022-4478-aee4-baeb410a1ef5")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db780908-38c5-442f-a737-3ef704528020")
+	)
+	(wire
+		(pts
+			(xy 180.34 152.4) (xy 180.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7e3126-863e-46d7-8c31-369c83530157")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2035d2f-ac8e-40d5-8944-dd083f8b50a8")
+	)
+	(wire
+		(pts
+			(xy 214.63 46.99) (xy 215.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27c6913-d9f7-4c7f-bed4-d7521f65b217")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c5beec-22e7-4054-b981-60646acb3cf4")
+	)
+	(wire
+		(pts
+			(xy 59.69 85.09) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f76a5b-71d1-427e-ae1d-dedfb2a68bc6")
+	)
+	(wire
+		(pts
+			(xy 107.95 168.91) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadac489-4fd6-4633-8ed3-66b61dae4f09")
+	)
+	(wire
+		(pts
+			(xy 132.08 38.1) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2e3247-eec2-4560-95bd-1f684ab6a60f")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 107.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef36ad42-539c-4323-9665-6b1589f41620")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00d071e-6a24-4ecb-97f0-9e9d8984243e")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 223.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e823dc-fc72-4cfe-973c-ae1415f510ba")
+	)
+	(wire
+		(pts
+			(xy 156.21 130.81) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f257dbf2-29ca-4aac-98d2-22f462cac781")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29944fa-4bb0-4331-8a2e-762126d4e79d")
+	)
+	(wire
+		(pts
+			(xy 214.63 139.7) (xy 212.09 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7414c6c-cfb7-425c-95b3-3fdbd2d62fd3")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 95.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8340390-8afb-4aa9-a33d-74a5cdc7e923")
+	)
+	(wire
+		(pts
+			(xy 121.92 168.91) (xy 119.38 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa86cde4-4bb8-4493-b047-ce00ef384ddc")
+	)
+	(global_label "COL_M"
+		(shape input)
+		(at 195.58 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00d43f00-7938-4956-8252-5e0ac0edeecb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.6128 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_E"
+		(shape input)
+		(at 92.71 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "059a9caa-f29d-48e5-9110-6d0fc9f38e68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9796 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_A"
+		(shape input)
+		(at 44.45 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eb64235-a8a7-48b5-9c59-769a8fb8d7c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_C"
+		(shape input)
+		(at 67.31 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f37dc5f-ec00-445f-81ed-03836240cf32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.4586 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_F"
+		(shape input)
+		(at 105.41 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "108ed352-418a-47ae-94af-ee42e68242e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_D"
+		(shape input)
+		(at 80.01 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15bb6705-e9df-48d2-94f0-f0a636944ca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.1586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_M"
+		(shape input)
+		(at 195.58 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "173a9c04-3bb2-44ea-b632-5098eb9bdd88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.6128 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_D"
+		(shape input)
+		(at 80.01 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a24cb5a-d8ea-4909-8250-ef5a8480076a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.1586 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_J"
+		(shape input)
+		(at 160.02 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2066d896-d0fb-4927-a268-2a7e20824390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.569 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L"
+		(shape input)
+		(at 182.88 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20d15003-ee0c-43ca-88c3-76c3a8547aa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.4895 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_G"
+		(shape input)
+		(at 121.92 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "220bf921-46a8-4642-ad8c-64cd22d0717a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7714 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_K"
+		(shape input)
+		(at 171.45 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2867b523-4d0c-4979-b3d9-736c0ba5d31e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3014 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_K"
+		(shape input)
+		(at 171.45 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2efb2587-0e52-4fad-9ab9-74d2b94caa22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3014 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_F"
+		(shape input)
+		(at 105.41 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3961730c-7af9-4a18-8220-f922f3256a99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_B"
+		(shape input)
+		(at 55.88 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "406f70c8-a3e5-4a2c-88f5-dcbd0f622700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.0286 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_G"
+		(shape input)
+		(at 121.92 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46427fc0-0788-4114-80ec-177d277be4bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7714 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_F"
+		(shape input)
+		(at 105.41 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b99c493-7f54-4f40-92e8-3bcae46c052e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_D"
+		(shape input)
+		(at 80.01 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e226af4-ee42-407b-8ab8-4b8138d4f2d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.1586 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_C"
+		(shape input)
+		(at 67.31 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e9795cb-433c-4ab1-b596-15789a249e80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.4586 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_I"
+		(shape input)
+		(at 147.32 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51e7815e-6fa2-45f4-bd4a-fb835b9cf797")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.5062 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L"
+		(shape input)
+		(at 182.88 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e168167-e8f7-4f22-9f50-800419892b8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.4895 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_H"
+		(shape input)
+		(at 134.62 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "606f5421-d786-428d-af45-76ac9c60512b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.5319 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_I"
+		(shape input)
+		(at 147.32 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75fe8468-c493-4578-8b3e-da6ec2f75611")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.5062 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_H"
+		(shape input)
+		(at 134.62 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77af8251-942e-41b4-be58-f024feff1e96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.5319 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_I"
+		(shape input)
+		(at 147.32 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c3f9d53-ba52-4a67-b935-1408cc05e79d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.5062 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_J"
+		(shape input)
+		(at 160.02 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e704838-a5a0-4868-8bdb-6f303d8b0d81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.569 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Q1_G"
+		(shape input)
+		(at 212.09 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87bcd333-8b6f-4b77-96ea-7526c293627c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3272 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_B"
+		(shape input)
+		(at 55.88 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "962673b6-6c57-411c-90fe-a28d528058c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.0286 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_E"
+		(shape input)
+		(at 92.71 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f39eee5-a1e0-4520-8258-fe23a0406f4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9796 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_A"
+		(shape input)
+		(at 44.45 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4298e24-47a1-4bc9-ac84-18a3c51ee031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_B"
+		(shape input)
+		(at 55.88 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b152a6e5-ebce-45c7-b339-e18aae024867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.0286 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_C"
+		(shape input)
+		(at 67.31 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c734e9bb-be61-47a0-9752-4b7f85a97855")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.4586 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_J"
+		(shape input)
+		(at 160.02 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c741d636-c77f-4b2c-bc63-cb3491d894f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.569 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_K"
+		(shape input)
+		(at 171.45 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd69c446-ef6e-4399-9111-41901b881358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3014 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_G"
+		(shape input)
+		(at 121.92 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfba9ade-4f4d-4a8c-9330-909c25c341b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7714 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_H"
+		(shape input)
+		(at 134.62 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd0a572c-edc9-49fd-b14c-9915d6aeed7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.5319 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_E"
+		(shape input)
+		(at 92.71 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd2d1fe6-f2de-45eb-9399-7264a8338c7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9796 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_A"
+		(shape input)
+		(at 44.45 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e35a1df6-57b7-4b49-a873-66cddd64de37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L"
+		(shape input)
+		(at 182.88 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f28ee8bc-097c-405f-8463-d3c86022b77a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.4895 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Q3_G"
+		(shape input)
+		(at 212.09 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3204bc7-f7ac-47da-a22a-eb048becc63e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3272 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Q2_G"
+		(shape input)
+		(at 212.09 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8b0b8f3-ed48-4689-8441-3b042e2d578c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3272 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01896646-65fb-4661-8110-6797a8bf8fc2")
+		(property "Reference" "D14"
+			(at 63.5 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 63.5 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69dee81a-a43e-47f7-a164-b519c3f445ea")
+		)
+		(pin "1"
+			(uuid "836f4eb4-869c-4f03-9bd3-0591e59bb859")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 132.08 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0280800a-7e13-4ba5-ae2c-ff1ce529aa81")
+		(property "Reference" "D20"
+			(at 135.89 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 135.89 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55ccce39-9a59-468a-ad2b-d71f25cf16c3")
+		)
+		(pin "1"
+			(uuid "672ce52c-6b62-4b06-8b56-af042ca8c25a")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 252.73 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c527aad-40ea-4ccf-8c40-a37866b29f26")
+		(property "Reference" "#PWR05"
+			(at 252.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 252.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 252.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bad3f174-3ef2-4a20-900a-3a5b516a4cbd")
+		)
+		(instances
+			(project ""
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce17b2c-706a-46b2-997e-4dc8e8069507")
+		(property "Reference" "D6"
+			(at 111.76 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 111.76 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cc164f2-c3fd-46ad-9f72-173797e50bde")
+		)
+		(pin "1"
+			(uuid "8165f0be-1010-486c-ba69-2c0bc6c2bff7")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 180.34 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "107953b6-3200-45ea-9e5d-b6fab3d8c63e")
+		(property "Reference" "D37"
+			(at 184.15 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 184.15 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d33fc3a1-12fe-43f1-b8fa-858cd0d7c8ed")
+		)
+		(pin "1"
+			(uuid "edef97cd-f036-4f3d-ae4d-e3a42b0abaa6")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a4c780d-08b3-45d6-98a4-a2bb9838a078")
+		(property "Reference" "D38"
+			(at 196.85 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 196.85 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d508ccff-f1b8-4928-8a06-f7eebc87939a")
+		)
+		(pin "1"
+			(uuid "51b773a6-7855-4ac7-8548-4a03a909d5f9")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 95.25 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb4bd06-d839-46d8-8e48-75879c4014b4")
+		(property "Reference" "D17"
+			(at 99.06 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 99.06 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c085051-d09a-4cfd-9930-a22d8468a48c")
+		)
+		(pin "1"
+			(uuid "0ae4feeb-213b-47ff-a1ef-a99f39058617")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_GDS")
+		(at 220.98 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "216739c3-eaa2-4b6a-a644-99d17740a8fa")
+		(property "Reference" "Q1"
+			(at 227.33 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9540NSTRLPBF"
+			(at 227.33 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceee7263-8ac2-49e4-ba50-2b27787e50aa")
+		)
+		(pin "2"
+			(uuid "ddac6b16-7ebe-4bd9-b2bd-be7ef4c2ca6a")
+		)
+		(pin "3"
+			(uuid "7e3b593f-873d-448f-b7b3-eac8ba84f11e")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 46.99 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c67270-8811-4b9b-a00b-4d74a7ea945d")
+		(property "Reference" "D26"
+			(at 50.8 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 50.8 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 46.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 46.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "376deacf-cdc0-4309-8fd2-ec7f81a6340a")
+		)
+		(pin "1"
+			(uuid "b172b1d9-9b2f-401a-a856-1d44ba3f587d")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 71.12 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34efa418-9c27-49cb-97b7-06343de77699")
+		(property "Reference" "D28"
+			(at 74.93 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 74.93 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f994bdac-d009-4672-8c1e-eb8793fe7432")
+		)
+		(pin "1"
+			(uuid "7d6eb97d-f6e1-4c27-9467-41a0c133d370")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e2e1921-c69e-428b-9170-e5480a7de893")
+		(property "Reference" "D23"
+			(at 171.45 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 171.45 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ef9923b-369a-4502-b6aa-570ef563d064")
+		)
+		(pin "1"
+			(uuid "7f66dfa3-0754-40d9-945e-a3330100cd48")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 71.12 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45054e93-2655-4505-af1a-f9c7f0909826")
+		(property "Reference" "D3"
+			(at 74.93 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 74.93 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9980ad3d-9006-47c4-b6ea-c5a24afcc442")
+		)
+		(pin "1"
+			(uuid "e844d536-08b2-4389-a254-f81df65c33da")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "470e94b7-f9c4-4092-bcad-351b648441ab")
+		(property "Reference" "R2"
+			(at 219.71 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 219.71 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a95120a-77d1-46ba-80f1-0949131cdde7")
+		)
+		(pin "2"
+			(uuid "b0f04531-d60d-460c-8e67-6bdf52b2c664")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "481fbd8d-ab42-4e38-be9a-abffda78d051")
+		(property "Reference" "R3"
+			(at 219.71 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 219.71 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c94b15-6b7a-42ee-805d-127bac7ade78")
+		)
+		(pin "2"
+			(uuid "9cfdacb0-e91b-4b9f-b4c8-ae38cdd1b6f9")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 46.99 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d76ee6f-3493-42a5-8d86-a4f624b49a0f")
+		(property "Reference" "D1"
+			(at 50.8 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 50.8 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc7e6805-75ae-47b6-ac7a-bdec48e75407")
+		)
+		(pin "1"
+			(uuid "266aad3a-cd4d-48bd-a3b4-f88ca3180c70")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 143.51 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5282db6d-06b7-4613-8841-cf13d0bd42e8")
+		(property "Reference" "D21"
+			(at 147.32 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 147.32 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e603e19-feda-411f-a270-1ead00d52532")
+		)
+		(pin "1"
+			(uuid "808980e9-1b91-412f-93d8-1d23003c082b")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57afbaa0-56da-4ce3-8065-4cffe9d41fc5")
+		(property "Reference" "D27"
+			(at 63.5 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 63.5 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a918ee0-a04a-4d69-aff1-1a486cb29738")
+		)
+		(pin "1"
+			(uuid "0c808530-f8c2-4971-a080-bbf7b275993e")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d123562-e37f-40aa-b830-d32bb3e871c3")
+		(property "Reference" "D25"
+			(at 196.85 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 196.85 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44c87b42-89ce-47d9-a9e1-3be13ab0f9ba")
+		)
+		(pin "1"
+			(uuid "af5d194d-662a-4881-aa7e-3cee7b74e6f2")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 180.34 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1f7fda-5d0d-4509-b2ec-1561c20483fa")
+		(property "Reference" "D24"
+			(at 184.15 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 184.15 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f92b1b62-58db-44da-a461-7ea662ca258e")
+		)
+		(pin "1"
+			(uuid "8a597738-2fff-4b4e-a13c-9d532a361493")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 83.82 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "743e3b82-abdc-4598-a18b-2e448fd0bfcf")
+		(property "Reference" "D29"
+			(at 87.63 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 87.63 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf057c0b-e5d4-4c2c-bd81-93c3e3b003ec")
+		)
+		(pin "1"
+			(uuid "9e5dac58-f22a-4f0d-ba4a-97a251f82a18")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79bedc69-5827-4ac3-8f8e-97dc98bab265")
+		(property "Reference" "R1"
+			(at 219.71 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 219.71 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35ef0204-077e-4eb6-bb53-12d05b402299")
+		)
+		(pin "2"
+			(uuid "6bfeeed0-481f-4254-8d70-ccd8ba434684")
+		)
+		(instances
+			(project ""
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83da5682-3bf5-4259-8e4c-fce3f1b4c0ca")
+		(property "Reference" "D7"
+			(at 123.19 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 123.19 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc19c5f7-a80e-4c67-91ed-34dd6c992864")
+		)
+		(pin "1"
+			(uuid "02c6e92d-9d3a-4d95-8bac-7fb88c9a412e")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 156.21 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86a7ba20-b801-4d02-9002-5ea0eb1e58f3")
+		(property "Reference" "D10"
+			(at 160.02 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 160.02 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdd1b27c-c243-439a-86ae-b273efc913e8")
+		)
+		(pin "1"
+			(uuid "6a73bb6c-4166-436a-8178-cfe377f0889d")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 95.25 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c86ed3-9692-4648-a66c-fdaf694527fa")
+		(property "Reference" "D30"
+			(at 99.06 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 99.06 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46de7ff8-c71b-4873-a378-d176719221bb")
+		)
+		(pin "1"
+			(uuid "a6a87b8a-6433-4a3c-83b9-2ff9e5c6ddc7")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_GDS")
+		(at 220.98 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993b9a06-9d92-4f33-aa4d-9b1fc7f9a851")
+		(property "Reference" "Q3"
+			(at 227.33 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9540NSTRLPBF"
+			(at 227.33 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 226.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c877f8b0-fa2f-4f94-a2ed-9d29c8acb2a0")
+		)
+		(pin "2"
+			(uuid "98e22b2e-2b69-4c37-9fcd-ea1954123268")
+		)
+		(pin "3"
+			(uuid "0b4d56e0-7c28-4dc1-bd1a-1261aef09cce")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a79c5054-e563-423c-83bc-96c5e9f3d575")
+		(property "Reference" "D11"
+			(at 171.45 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 171.45 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fee89310-9053-4b5b-883b-26f3d9e244a4")
+		)
+		(pin "1"
+			(uuid "c1073d60-e48d-4c5f-98a8-3d075c50c905")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 132.08 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0106fb3-7f39-467b-b09f-d11d6c945af6")
+		(property "Reference" "D8"
+			(at 135.89 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 135.89 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "faf96bf4-baac-44bc-bc16-fe0dd5188d6b")
+		)
+		(pin "1"
+			(uuid "ed8d58ef-3178-49eb-85e4-595cacefaa72")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b312d16c-4d88-439d-8f52-6fa06ce7ac54")
+		(property "Reference" "D18"
+			(at 111.76 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 111.76 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9ea1e03-6b08-4137-9249-fc353dd12cf2")
+		)
+		(pin "1"
+			(uuid "9a8a4a2e-4392-4c5a-aebe-8f7064101342")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 156.21 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b806c5bc-f954-4efa-b170-accd9fd3ed77")
+		(property "Reference" "D35"
+			(at 160.02 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 160.02 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 156.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98a80592-be20-4640-8846-cf3c22383589")
+		)
+		(pin "1"
+			(uuid "dec7202d-220e-47aa-969f-5e9be29e52f8")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 143.51 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb8062f8-0276-4085-9ab0-bef0dd608337")
+		(property "Reference" "D9"
+			(at 147.32 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 147.32 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddcfa0c2-cc54-4202-bd19-3c40cea2412d")
+		)
+		(pin "1"
+			(uuid "c8a1a7f2-a96d-4569-89f4-a1b3ce893cc3")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 71.12 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4b794a3-c89e-4ae1-bfe5-88648a64decc")
+		(property "Reference" "D15"
+			(at 74.93 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 74.93 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0c367c7-89ff-4a9a-bfe7-021704a16f34")
+		)
+		(pin "1"
+			(uuid "eb3bf173-5165-4c97-a1f5-085a6759e782")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca4c8fdd-7176-40fb-be4e-bfd36ceea0af")
+		(property "Reference" "D19"
+			(at 123.19 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 123.19 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9f19557-8912-43a7-838b-0ae8d7e56a12")
+		)
+		(pin "1"
+			(uuid "162d9dc0-91d7-489c-9c01-089a6eacfc14")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 46.99 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf747b4e-4989-4c6f-8684-fb538d4d4ac3")
+		(property "Reference" "D13"
+			(at 50.8 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 50.8 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "830a3bdf-2881-4f1d-a075-bd8a1afbfdf5")
+		)
+		(pin "1"
+			(uuid "c7fce049-ad3a-41a0-be57-ece99d505d21")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_GDS")
+		(at 220.98 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e2efcc-e288-4ea0-a98b-173059ad7f48")
+		(property "Reference" "Q2"
+			(at 227.33 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9540NSTRLPBF"
+			(at 227.33 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d5a137-2800-4314-bf1e-80cbb9ae25db")
+		)
+		(pin "2"
+			(uuid "9b5b57a9-57d2-4843-bbbd-e3891aafea26")
+		)
+		(pin "3"
+			(uuid "40914940-db05-40fa-a100-5ed248b6c15b")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 156.21 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe554f9-fa74-4ef1-a654-1b517859e53f")
+		(property "Reference" "D22"
+			(at 160.02 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 160.02 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b44aaae0-50a4-4173-806b-05892db8870a")
+		)
+		(pin "1"
+			(uuid "1a4809cd-5faa-4030-9648-f7abeed3f141")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 83.82 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc24842a-0c5c-4c58-b368-ec20bb4a4a4f")
+		(property "Reference" "D4"
+			(at 87.63 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 87.63 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad9c8c85-38cf-47ea-af04-654e827ef086")
+		)
+		(pin "1"
+			(uuid "e4f58e19-5bd0-44ba-9bb5-cfaa01fc3870")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 95.25 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf31db6-aee4-47d0-9bdd-57d96863b617")
+		(property "Reference" "D5"
+			(at 99.06 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 99.06 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f55140c6-9e71-4a28-9aae-723b68dade9c")
+		)
+		(pin "1"
+			(uuid "7adb26af-3942-4417-83b7-19514106d898")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 132.08 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfc8f08a-6cdf-4997-acaa-9c92903e8924")
+		(property "Reference" "D33"
+			(at 135.89 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 135.89 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9318987-7162-4a1b-98d8-b4717440bb28")
+		)
+		(pin "1"
+			(uuid "1a4551de-5a5e-48ab-8fbe-121c7f600319")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab5989d-76fd-4b27-bc49-a56a442e5a0e")
+		(property "Reference" "D36"
+			(at 171.45 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 171.45 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f972c6a-faa4-4795-85e5-b77ce85408ea")
+		)
+		(pin "1"
+			(uuid "05de29d1-8e40-4ebc-82e3-94013122f82e")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 180.34 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb283f2c-c993-4be7-af86-668679ffab59")
+		(property "Reference" "D12"
+			(at 184.15 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 184.15 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3edd2fc-e1dd-4ba7-9256-4dddebf6d2e7")
+		)
+		(pin "1"
+			(uuid "af34ec69-9512-4373-a6fd-34e8ff039bd3")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 143.51 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8a6c69-8b09-4000-a29e-6a68649df754")
+		(property "Reference" "D34"
+			(at 147.32 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 147.32 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 143.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a3d91c1-e747-4461-84c4-b9bf0ea2eb5f")
+		)
+		(pin "1"
+			(uuid "70fff8af-50bc-4385-813c-989cefed7327")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f38c0876-9768-4ef8-befa-fc95f7924d83")
+		(property "Reference" "D32"
+			(at 123.19 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 123.19 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "248b62bf-b6fd-4e0e-a691-0f70c334d342")
+		)
+		(pin "1"
+			(uuid "f86a0295-6efd-4ce1-8b95-e40afebbe23c")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 59.69 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f785f5a5-a0ff-49a7-af76-b259d384c41d")
+		(property "Reference" "D2"
+			(at 63.5 48.5774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 63.5 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acf0ec99-1692-440f-b080-d12ccbe3e6da")
+		)
+		(pin "1"
+			(uuid "42568325-5621-44a8-96b9-df9df9fbbf2b")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 83.82 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd4d802f-9346-430f-abf2-99c750570252")
+		(property "Reference" "D16"
+			(at 87.63 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "151051BS04000"
+			(at 87.63 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:BLUE-LED-5MM-ROUND"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28613d91-883f-47ba-b1f7-acfd38c9d6e7")
+		)
+		(pin "1"
+			(uuid "c8998832-3bc5-42d8-be2e-cee2e099ad44")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe7fe66d-93a2-40e3-936c-7be1deb233be")
+		(property "Reference" "D31"
+			(at 111.76 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLI-343D8U3F"
+			(at 111.76 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graduation Cap:ORANGE-LED-5MM-ROUND"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d5123f9-4159-4c87-84c8-4c96610d5319")
+		)
+		(pin "1"
+			(uuid "387f1fdc-abbf-4cb7-add2-ab8da0dac52a")
+		)
+		(instances
+			(project "Graduation Cap"
+				(path "/2ccf06cf-beba-485e-95e3-549f135cff1b/14c850ec-8d8b-406a-84da-d045424dda47"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,227 @@
+(footprint "ORANGE-LED-5MM-ROUND"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.3512 -4.1164 180)
+		(layer "F.SilkS")
+		(uuid "743792a8-ca6b-4ef7-a3aa-78c6ee402653")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SLI-343D8U3F"
+		(at -3.25 4.0736 180)
+		(layer "F.Fab")
+		(uuid "5d9da123-2e50-44c3-bd68-2cc6540c683a")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.3432 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31054c37-25ee-45b4-be97-11195f1e7f03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.3432 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb848468-8c2f-449f-8aa4-2fbd218b62c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.3432 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ab96b3c-f28f-4a6f-8d9d-1216c92f5cf6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.8568 2)
+		(end -0.8568 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71da8427-9c3c-4fcd-84fc-186e493fc68f")
+	)
+	(fp_line
+		(start 0.5432 1.675)
+		(end 1.0432 1.675)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45369756-ea3d-4f48-80f2-74fecfce745d")
+	)
+	(fp_line
+		(start 1.0432 1.675)
+		(end 1.0432 1.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e32536dc-2f95-433f-81e4-eaa6170fbfcf")
+	)
+	(fp_line
+		(start 1.0432 1.675)
+		(end 1.0432 2.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df30b8f1-e5d9-41bf-96a3-5db71e8e86fe")
+	)
+	(fp_line
+		(start 1.0432 1.675)
+		(end 1.5432 1.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39c769d6-ed29-486e-8c64-b75219e248be")
+	)
+	(fp_line
+		(start 1.5432 1.175)
+		(end 1.5432 1.675)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6dc62af9-4832-42a8-87c8-6b4654dd2463")
+	)
+	(fp_line
+		(start 1.5432 1.675)
+		(end 1.5432 2.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d224965b-2b65-4eb4-abea-9db9ae2b4ea2")
+	)
+	(fp_line
+		(start 1.5432 1.675)
+		(end 2.0432 1.675)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58b7e37d-bb3d-450d-90b4-431e2d5e2039")
+	)
+	(fp_line
+		(start 1.5432 2.175)
+		(end 1.0432 1.675)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51ed1bc6-b345-4fc1-a7ef-5af9c1b5cfb9")
+	)
+	(fp_arc
+		(start -0.8568 -2)
+		(mid 4.31644 0)
+		(end -0.8568 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b0ba2c2-6c0c-40e3-916e-0ac7053ce74d")
+	)
+	(fp_arc
+		(start -0.8568 -2)
+		(mid 4.31644 0)
+		(end -0.8568 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "accdc2ca-b7c1-4ac4-8688-df3327f71d13")
+	)
+	(fp_circle
+		(center 1.3432 0)
+		(end -1.9068 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2cf380df-aca3-4517-aaf7-a3b4094dce06")
+	)
+	(fp_line
+		(start -0.8568 2)
+		(end -0.8568 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "672cc24b-ce1d-4444-bbbd-b46bd2f282cc")
+	)
+	(pad "1" thru_hole circle
+		(at 0.0732 0 180)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "db32feb6-8c25-4599-992c-7b6ceaba386b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.6132 0 180)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "738c57a0-66ff-4697-9298-11f6b64d13c9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
